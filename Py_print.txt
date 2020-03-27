@@ -1,0 +1,116 @@
+Dataset Statistics
+--------------------------------------------------------------------------------------------------------------
+https://data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv 
+Loading data...
+Loading data completed!    - time: 5.898 sec  |  size: 18.4 MB  |   delimiter: ,
+Data processing completed! - time: 0.67 sec
+
+
+        Rows  Columns         NA  |  Data types:  object  integer  float
+Total:  2870       30  12%:10015  |       Total:      25        3      2
+
+--------------------------------------------------------------------------------------------------------------
+Code execution time: 7.264 sec
+
+
+Column list:
+============
+['Job ID', 'Agency', 'Posting Type', '# Of Positions', 'Business Title', 'Civil Service Title', 'Title Classification', 'Title Code No', 'Level', 'Job Category', 'Full-Time/Part-Time indicator', 'Career Level', 'Salary Range From', 'Salary Range To', 'Salary Frequency', 'Work Location', 'Division/Work Unit', 'Job Description', 'Minimum Qual Requirements', 'Preferred Skills', 'Additional Information', 'To Apply', 'Hours/Shift', 'Work Location 1', 'Recruitment Contact', 'Residency Requirement', 'Posting Date', 'Post Until', 'Posting Updated', 'Process Date']
+
+      Job ID                          Agency Posting Type  ...   Post Until Posting Updated Process Date
+0     436696  DEPT OF ENVIRONMENT PROTECTION     Internal  ...  09-APR-2020      03/10/2020   03/24/2020
+1     415922                  LAW DEPARTMENT     Internal  ...  03-OCT-2020      03/12/2020   03/24/2020
+2     422095     DEPARTMENT OF CITY PLANNING     Internal  ...          NaN      11/20/2019   03/24/2020
+3     425989  DEPT OF ENVIRONMENT PROTECTION     External  ...          NaN      01/08/2020   03/24/2020
+4     400494           NYC HOUSING AUTHORITY     External  ...          NaN      11/22/2019   03/24/2020
+...      ...                             ...          ...  ...          ...             ...          ...
+2865  433426   DEPT OF YOUTH & COMM DEV SRVS     Internal  ...          NaN      02/18/2020   03/24/2020
+2866  372651           NYC HOUSING AUTHORITY     Internal  ...          NaN      02/21/2019   03/24/2020
+2867  429513   DEPT OF DESIGN & CONSTRUCTION     Internal  ...  31-MAR-2020      01/27/2020   03/24/2020
+2868  402556           NYC HOUSING AUTHORITY     External  ...          NaN      10/10/2019   03/24/2020
+2869  416481    DEPARTMENT OF TRANSPORTATION     External  ...          NaN      01/02/2020   03/24/2020
+
+[2870 rows x 30 columns]
+
+
+
+Column details:
+===============
+             Column name    NA Data type  Distinct Max len  Val len                 First row value
+0                 Job ID     -     int64      1588       -        6                          436696
+1                 Agency     -    object        53      30       30  DEPT OF ENVIRONMENT PROTECTION
+2           Posting Type     -    object         2       8        8                        Internal
+3         # Of Positions     -     int64        39       -        1                               1
+4         Business Title     -    object      1208     101       19             Executive Assistant
+5    Civil Service Title     -    object       305      30       13                   STAFF ANALYST
+6   Title Classification     -    object         5      24       13                   Competitive-1
+7          Title Code No     -    object       315       5        5                           12626
+8                  Level     -    object        16       2        2                              01
+9           Job Category    0%    object       128     180       67  Administration & Human Resourc
+10  Full-Time/Part-Time     6%    object         3       1        1                               F
+11          Career Level    0%    object         6      25       25       Experienced (non-manager)
+12     Salary Range From     -   float64       523       -        7                           50078
+13       Salary Range To     -   float64       658       -        7                           68181
+14      Salary Frequency     -    object         3       6        6                          Annual
+15         Work Location     -    object       228      30       22          Office of the Director
+16    Division/Work Unit     -    object       680      38       29   Catskill Div Off (Source Div)
+17       Job Description     -    object      1529   10699     1928  The NYC Department of Environm
+18  Minimum Qual Require    1%    object       324    5232     1814  1. A master's degree from an a
+19      Preferred Skills   14%    object      1230    2761     1102  • Driver's license valid in th
+20  Additional Informati   36%    object       624    2807      499  DEP is an equal opportunity em
+21              To Apply    0%    object       819    1730       33   Click the 'Apply Now' button.
+22           Hours/Shift   69%    object       179     247       29   35 Hours per week / Day shift
+23       Work Location 1   55%    object       249     726       37  669 County Road 38 Arkville, N
+24   Recruitment Contact  100%   float64         1       -        3                             NaN
+25  Residency Requiremen     -    object        67     832       58  New York City residency is not
+26          Posting Date     -    object       472      10       10                      03/10/2020
+27            Post Until   68%    object        99      11       11                     09-APR-2020
+28       Posting Updated     -    object       468      10       10                      03/10/2020
+29          Process Date     -    object         1      10       10                      03/24/2020
+
+
+
+Column details by data types:
+=============================
+int64 type:
+      Column name NA Data type  Distinct Max len  Val len First row value
+0          Job ID  -     int64      1588       -        6          436696
+3  # Of Positions  -     int64        39       -        1               1 
+
+
+object type:
+             Column name   NA Data type  Distinct Max len  Val len                 First row value
+1                 Agency    -    object        53      30       30  DEPT OF ENVIRONMENT PROTECTION
+2           Posting Type    -    object         2       8        8                        Internal
+4         Business Title    -    object      1208     101       19             Executive Assistant
+5    Civil Service Title    -    object       305      30       13                   STAFF ANALYST
+6   Title Classification    -    object         5      24       13                   Competitive-1
+7          Title Code No    -    object       315       5        5                           12626
+8                  Level    -    object        16       2        2                              01
+9           Job Category   0%    object       128     180       67  Administration & Human Resourc
+10  Full-Time/Part-Time    6%    object         3       1        1                               F
+11          Career Level   0%    object         6      25       25       Experienced (non-manager)
+14      Salary Frequency    -    object         3       6        6                          Annual
+15         Work Location    -    object       228      30       22          Office of the Director
+16    Division/Work Unit    -    object       680      38       29   Catskill Div Off (Source Div)
+17       Job Description    -    object      1529   10699     1928  The NYC Department of Environm
+18  Minimum Qual Require   1%    object       324    5232     1814  1. A master's degree from an a
+19      Preferred Skills  14%    object      1230    2761     1102  • Driver's license valid in th
+20  Additional Informati  36%    object       624    2807      499  DEP is an equal opportunity em
+21              To Apply   0%    object       819    1730       33   Click the 'Apply Now' button.
+22           Hours/Shift  69%    object       179     247       29   35 Hours per week / Day shift
+23       Work Location 1  55%    object       249     726       37  669 County Road 38 Arkville, N
+25  Residency Requiremen    -    object        67     832       58  New York City residency is not
+26          Posting Date    -    object       472      10       10                      03/10/2020
+27            Post Until  68%    object        99      11       11                     09-APR-2020
+28       Posting Updated    -    object       468      10       10                      03/10/2020
+29          Process Date    -    object         1      10       10                      03/24/2020 
+
+
+float64 type:
+            Column name    NA Data type  Distinct Max len  Val len First row value
+12    Salary Range From     -   float64       523       -        7           50078
+13      Salary Range To     -   float64       658       -        7           68181
+24  Recruitment Contact  100%   float64         1       -        3             NaN 
+
+
