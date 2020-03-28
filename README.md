@@ -2,7 +2,7 @@
 Python script
 
 
-"Data Analyst" is a lightweight and very fast Python script to analyse online available datasets from url address directly form clipboard memory.
+"Data Analyst" is a lightweight and very fast Python script to analyse available online datasets from url address directly form clipboard memory.
 
 It has three main task:
 
