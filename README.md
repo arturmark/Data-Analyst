@@ -8,7 +8,7 @@ It has three main task:
 
 - It performs standard analysis for any data in csv format, for example: number of rows, columns, missing values, data types, column names, delimiter, size of the file, downloading time, web domain even first row values etc...
 
-- Evary single analysis is stored in database SQLite3 created automacically if not exists. Then it starts to append rows with new or when same dataset has changed its structure or update existing with faster downloading time, if it has happened. It will also keep original index value, which can be used always for reference to other projects.
+- Evary single analysis are stored in database SQLite3 created automacically if not exists. Then it starts to append rows with new or when same dataset has changed its structure or update existing with faster downloading time, if it has happened. It will also keep original index value, which can be used always for reference to other projects.
 
 - Each time output from analysed data is saved in text file available for quick reference used for example in further analysis. Python script does it usually in less then second, but it is still very handy to have that.
 
