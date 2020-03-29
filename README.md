@@ -15,6 +15,7 @@ It has three main task:
 The general idea is to have ability to get quick essential analysis of the file with data and to have a database of datasets, where it can be search later for link to the data with speciffic attributes like with many rows, including speciffic data types, has no missing values and includes column names like latidude, to use for map charts.
 
 *Note:
+
 In repositoriy is included csv file with export from current database. The column names are supplied below as a python list, ready to paste and import with code.
 
 ['id', 'timestamp', 'domain', 'source', 'file_type', 'size_mb', 't_load_sec', 't_calc_sec', 't_code_sec', 'parameter', 'prmtr_val', 'dt_obj', 'dt_int', 'dt_float', 'row_', 'col_', 'na', 'source_address', 'column_list', 'first_row', 'comment']
