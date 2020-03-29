@@ -13,3 +13,8 @@ It has three main task:
 - Each time output from analysed data is saved in text file available for quick reference used for example in further analysis. Python script does it usually in less then second, but it is still very handy to have that.
 
 The general idea is to have ability to get quick essential analysis of the file with data and to have a database of datasets, where it can be search later for link to the data with speciffic attributes like with many rows, including speciffic data types, has no missing values and includes column names like latidude, to use for map charts.
+
+*For developers:
+There is list of column names to the csv file
+
+['id', 'timestamp', 'domain', 'source', 'file_type', 'size_mb', 't_load_sec', 't_calc_sec', 't_code_sec', 'parameter', 'prmtr_val', 'dt_obj', 'dt_int', 'dt_float', 'row_', 'col_', 'na', 'source_address', 'column_list', 'first_row', 'comment']
