@@ -1,5 +1,5 @@
 # Data-Analyst
-Python script
+Python script to analyse online data files and saving them after in SQLite3 database.
 
 
 "Data Analyst" is a lightweight and very fast Python script to analyse available online datasets from url address directly form clipboard memory.
