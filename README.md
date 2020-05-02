@@ -20,6 +20,12 @@ The general idea is to have ability to get quick essential analysis of the file 
 
 ![Python output part 1.PNG](https://github.com/arturmark/Data-Analyst/blob/master/Python%20output%20part%201.PNG)
 
+![SQLite3](https://github.com/arturmark/Data-Analyst/blob/master/SQLite3-database%20structure.PNG)
+
+![SQLite3](https://github.com/arturmark/Data-Analyst/blob/master/SQLite3-sample%20values.PNG)
+
+![VS Code](https://github.com/arturmark/Data-Analyst/blob/master/Working%20environment_.png)
+
 
 
 
